@@ -432,6 +432,8 @@ Updates.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
 Updates.BorderColor3 = Color3.fromRGB(45, 45, 45)
 Updates.Position = UDim2.new(0.230152354, 0, 0.139837399, 0)
 Updates.Size = UDim2.new(0, 763, 0, 208)
+Updates.Active = true
+Updates.Draggable = true
 
 UICorner_27.Parent = Updates
 
@@ -497,7 +499,7 @@ UICorner_31.Parent = Open
 
 -- Scripts:
 
-local function ZDDZDOY_fake_script() -- Home.LocalScript 
+local function APTHUUW_fake_script() -- Home.LocalScript 
 	local script = Instance.new('LocalScript', Home)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -507,8 +509,8 @@ local function ZDDZDOY_fake_script() -- Home.LocalScript
 		script.Parent.Parent.MiscTab.Visible = false
 	end)
 end
-coroutine.wrap(ZDDZDOY_fake_script)()
-local function EYKNDTY_fake_script() -- Teleports.LocalScript 
+coroutine.wrap(APTHUUW_fake_script)()
+local function NTUFSG_fake_script() -- Teleports.LocalScript 
 	local script = Instance.new('LocalScript', Teleports)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -518,8 +520,8 @@ local function EYKNDTY_fake_script() -- Teleports.LocalScript
 		script.Parent.Parent.MiscTab.Visible = false
 	end)
 end
-coroutine.wrap(EYKNDTY_fake_script)()
-local function HIITXW_fake_script() -- Autofarm.LocalScript 
+coroutine.wrap(NTUFSG_fake_script)()
+local function HBXVARY_fake_script() -- Autofarm.LocalScript 
 	local script = Instance.new('LocalScript', Autofarm)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -529,93 +531,93 @@ local function HIITXW_fake_script() -- Autofarm.LocalScript
 		script.Parent.Parent.MiscTab.Visible = false
 	end)
 end
-coroutine.wrap(HIITXW_fake_script)()
-local function KZKVFEC_fake_script() -- TpToSell.LocalScript 
+coroutine.wrap(HBXVARY_fake_script)()
+local function BVNDAKB_fake_script() -- TpToSell.LocalScript 
 	local script = Instance.new('LocalScript', TpToSell)
 
 	local button = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
 		local player = game.Players.LocalPlayer
-		player.Character.HumanoidRootPart.CFrame = CFrame.new(44.4517, 1.5, 94.0821)
+		player.Character.HumanoidRootPart.CFrame = CFrame.new(44.4517, 7, 94.0821)
 	end)
 end
-coroutine.wrap(KZKVFEC_fake_script)()
-local function PPMWZK_fake_script() -- TpToWheat.LocalScript 
+coroutine.wrap(BVNDAKB_fake_script)()
+local function ICFQ_fake_script() -- TpToWheat.LocalScript 
 	local script = Instance.new('LocalScript', TpToWheat)
 
 	local button = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
 		local player = game.Players.LocalPlayer
-		player.Character.HumanoidRootPart.CFrame = CFrame.new(134.601, 0.0947799, 70.578)
+		player.Character.HumanoidRootPart.CFrame = CFrame.new(134.601, 7, 70.578)
 	end)
 end
-coroutine.wrap(PPMWZK_fake_script)()
-local function GQCJNX_fake_script() -- TpToGrass.LocalScript 
+coroutine.wrap(ICFQ_fake_script)()
+local function TDCLH_fake_script() -- TpToGrass.LocalScript 
 	local script = Instance.new('LocalScript', TpToGrass)
 
 	local button = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
 		local player = game.Players.LocalPlayer
-		player.Character.HumanoidRootPart.CFrame = CFrame.new(178.198, 0.546442, -76.6911)
+		player.Character.HumanoidRootPart.CFrame = CFrame.new(178.198, 7, -76.6911)
 	end)
 end
-coroutine.wrap(GQCJNX_fake_script)()
-local function XKYZNT_fake_script() -- TpToCorn.LocalScript 
+coroutine.wrap(TDCLH_fake_script)()
+local function OMKY_fake_script() -- TpToCorn.LocalScript 
 	local script = Instance.new('LocalScript', TpToCorn)
 
 	local button = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
 		local player = game.Players.LocalPlayer
-		player.Character.HumanoidRootPart.CFrame = CFrame.new(205.332, 0.546568, -126.218)
+		player.Character.HumanoidRootPart.CFrame = CFrame.new(205.332, 7, -126.218)
 	end)
 end
-coroutine.wrap(XKYZNT_fake_script)()
-local function WVXJZW_fake_script() -- TpToEgg.LocalScript 
+coroutine.wrap(OMKY_fake_script)()
+local function WVFV_fake_script() -- TpToEgg.LocalScript 
 	local script = Instance.new('LocalScript', TpToEgg)
 
 	local button = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
 		local player = game.Players.LocalPlayer
-		player.Character.HumanoidRootPart.CFrame = CFrame.new(85.1164, 2.84966, -86.8678)
+		player.Character.HumanoidRootPart.CFrame = CFrame.new(85.1164, 7, -86.8678)
 	end)
 end
-coroutine.wrap(WVXJZW_fake_script)()
-local function PPKZPN_fake_script() -- TpToTool1.LocalScript 
+coroutine.wrap(WVFV_fake_script)()
+local function PIOU_fake_script() -- TpToTool1.LocalScript 
 	local script = Instance.new('LocalScript', TpToTool1)
 
 	local button = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
 		local player = game.Players.LocalPlayer
-		player.Character.HumanoidRootPart.CFrame = CFrame.new(48.1751, 2.51197, -165.188)
+		player.Character.HumanoidRootPart.CFrame = CFrame.new(48.1751, 7, -165.188)
 	end)
 end
-coroutine.wrap(PPKZPN_fake_script)()
-local function TGQIZHE_fake_script() -- TpToTool2.LocalScript 
+coroutine.wrap(PIOU_fake_script)()
+local function XOPEYP_fake_script() -- TpToTool2.LocalScript 
 	local script = Instance.new('LocalScript', TpToTool2)
 
 	local button = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
 		local player = game.Players.LocalPlayer
-		player.Character.HumanoidRootPart.CFrame = CFrame.new(42.6636, 1.01086, 23.1644)
+		player.Character.HumanoidRootPart.CFrame = CFrame.new(42.6636, 7, 23.1644)
 	end)
 end
-coroutine.wrap(TGQIZHE_fake_script)()
-local function PENBQSA_fake_script() -- AntiKick.LocalScript 
+coroutine.wrap(XOPEYP_fake_script)()
+local function EHFCNW_fake_script() -- AntiKick.LocalScript 
 	local script = Instance.new('LocalScript', AntiKick)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game.ServerScriptService.AntiCheat:Destroy()
 	end)
 end
-coroutine.wrap(PENBQSA_fake_script)()
-local function GJYSTKH_fake_script() -- Misc.LocalScript 
+coroutine.wrap(EHFCNW_fake_script)()
+local function SSFS_fake_script() -- Misc.LocalScript 
 	local script = Instance.new('LocalScript', Misc)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -625,8 +627,8 @@ local function GJYSTKH_fake_script() -- Misc.LocalScript
 		script.Parent.Parent.MiscTab.Visible = true
 	end)
 end
-coroutine.wrap(GJYSTKH_fake_script)()
-local function HXEO_fake_script() -- AutofarmGrass.LocalScript 
+coroutine.wrap(SSFS_fake_script)()
+local function TTVGFU_fake_script() -- AutofarmGrass.LocalScript 
 	local script = Instance.new('LocalScript', AutofarmGrass)
 
 	script.Parent.MouseButton1Down:connect(function()
@@ -637,15 +639,15 @@ local function HXEO_fake_script() -- AutofarmGrass.LocalScript
 		while true do
 			wait(7)
 			local player = game.Players.LocalPlayer
-			player.Character.HumanoidRootPart.CFrame = CFrame.new(178.198, 0.546442, -76.6911)
+			player.Character.HumanoidRootPart.CFrame = CFrame.new(178.198, 7, -76.6911)
 			wait(10)
 			local player = game.Players.LocalPlayer
 			player.Character.HumanoidRootPart.CFrame = CFrame.new(44.4517, 1.5, 94.0821)
 		end
 	end)
 end
-coroutine.wrap(HXEO_fake_script)()
-local function QHMIRCT_fake_script() -- AutofarmCorn.LocalScript 
+coroutine.wrap(TTVGFU_fake_script)()
+local function SPJBJVW_fake_script() -- AutofarmCorn.LocalScript 
 	local script = Instance.new('LocalScript', AutofarmCorn)
 
 	script.Parent.MouseButton1Down:connect(function()
@@ -656,15 +658,15 @@ local function QHMIRCT_fake_script() -- AutofarmCorn.LocalScript
 		while true do
 			wait(7)
 			local player = game.Players.LocalPlayer
-			player.Character.HumanoidRootPart.CFrame = CFrame.new(205.332, 0.546568, -126.218)
+			player.Character.HumanoidRootPart.CFrame = CFrame.new(205.332, 7, -126.218)
 			wait(10)
 			local player = game.Players.LocalPlayer
 			player.Character.HumanoidRootPart.CFrame = CFrame.new(44.4517, 1.5, 94.0821)
 		end
 	end)
 end
-coroutine.wrap(QHMIRCT_fake_script)()
-local function SAUIZB_fake_script() -- AutofarmWheat.LocalScript 
+coroutine.wrap(SPJBJVW_fake_script)()
+local function UXJX_fake_script() -- AutofarmWheat.LocalScript 
 	local script = Instance.new('LocalScript', AutofarmWheat)
 
 	script.Parent.MouseButton1Down:connect(function()
@@ -675,15 +677,15 @@ local function SAUIZB_fake_script() -- AutofarmWheat.LocalScript
 		while true do
 			wait(7)
 			local player = game.Players.LocalPlayer
-			player.Character.HumanoidRootPart.CFrame = CFrame.new(303.823, 3, -102.39)
+			player.Character.HumanoidRootPart.CFrame = CFrame.new(303.823, 7, -102.39)
 			wait(10)
 			local player = game.Players.LocalPlayer
 			player.Character.HumanoidRootPart.CFrame = CFrame.new(134.601, 0.0947799, 70.578)
 		end
 	end)
 end
-coroutine.wrap(SAUIZB_fake_script)()
-local function EEWZVG_fake_script() -- Close.LocalScript 
+coroutine.wrap(UXJX_fake_script)()
+local function ZNHUOH_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -691,8 +693,8 @@ local function EEWZVG_fake_script() -- Close.LocalScript
 		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(EEWZVG_fake_script)()
-local function MMVXGD_fake_script() -- Close_2.LocalScript 
+coroutine.wrap(ZNHUOH_fake_script)()
+local function HPQSPQ_fake_script() -- Close_2.LocalScript 
 	local script = Instance.new('LocalScript', Close_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -700,12 +702,12 @@ local function MMVXGD_fake_script() -- Close_2.LocalScript
 		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(MMVXGD_fake_script)()
-local function RYPPIYS_fake_script() -- Open.LocalScript 
+coroutine.wrap(HPQSPQ_fake_script)()
+local function LTCRE_fake_script() -- Open.LocalScript 
 	local script = Instance.new('LocalScript', Open)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Frame.Visible = true
 	end)
 end
-coroutine.wrap(RYPPIYS_fake_script)()
+coroutine.wrap(LTCRE_fake_script)()
