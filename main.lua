@@ -61,10 +61,8 @@ local Title = Instance.new("TextLabel")
 local UICorner_29 = Instance.new("UICorner")
 local Update1 = Instance.new("TextLabel")
 local UICorner_30 = Instance.new("UICorner")
-local Update2 = Instance.new("TextLabel")
-local UICorner_31 = Instance.new("UICorner")
 local Open = Instance.new("TextButton")
-local UICorner_32 = Instance.new("UICorner")
+local UICorner_31 = Instance.new("UICorner")
 
 --Properties:
 
@@ -84,7 +82,7 @@ Home.Name = "Home"
 Home.Parent = Frame
 Home.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
 Home.BorderColor3 = Color3.fromRGB(45, 45, 45)
-Home.Size = UDim2.new(0, 162, 0, 50)
+Home.Size = UDim2.new(0, 162, 0, 55)
 Home.Font = Enum.Font.Highway
 Home.Text = "Home"
 Home.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -98,8 +96,8 @@ Teleports.Name = "Teleports"
 Teleports.Parent = Frame
 Teleports.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
 Teleports.BorderColor3 = Color3.fromRGB(45, 45, 45)
-Teleports.Position = UDim2.new(0.179526418, 0, 0, 0)
-Teleports.Size = UDim2.new(0, 238, 0, 50)
+Teleports.Position = UDim2.new(0.179526433, 0, 0, 0)
+Teleports.Size = UDim2.new(0, 238, 0, 55)
 Teleports.Font = Enum.Font.Highway
 Teleports.Text = "Teleports"
 Teleports.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -113,8 +111,8 @@ Autofarm.Name = "Autofarm"
 Autofarm.Parent = Frame
 Autofarm.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
 Autofarm.BorderColor3 = Color3.fromRGB(45, 45, 45)
-Autofarm.Position = UDim2.new(0.443109781, 0, 0, 0)
-Autofarm.Size = UDim2.new(0, 235, 0, 50)
+Autofarm.Position = UDim2.new(0.443109751, 0, 0, 0)
+Autofarm.Size = UDim2.new(0, 235, 0, 55)
 Autofarm.Font = Enum.Font.Highway
 Autofarm.Text = "Autofarm"
 Autofarm.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -130,7 +128,6 @@ HomeTab.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
 HomeTab.BorderColor3 = Color3.fromRGB(45, 45, 45)
 HomeTab.Position = UDim2.new(0, 0, 0.140449435, 0)
 HomeTab.Size = UDim2.new(0, 889, 0, 306)
-HomeTab.Visible = false
 
 UICorner_4.Parent = HomeTab
 
@@ -319,7 +316,7 @@ Misc.Parent = Frame
 Misc.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
 Misc.BorderColor3 = Color3.fromRGB(45, 45, 45)
 Misc.Position = UDim2.new(0.703109801, 0, 0, 0)
-Misc.Size = UDim2.new(0, 190, 0, 50)
+Misc.Size = UDim2.new(0, 190, 0, 55)
 Misc.Font = Enum.Font.Highway
 Misc.Text = "Misc"
 Misc.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -335,6 +332,7 @@ AutofarmTab.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
 AutofarmTab.BorderColor3 = Color3.fromRGB(45, 45, 45)
 AutofarmTab.Position = UDim2.new(0, 0, 0.140449435, 0)
 AutofarmTab.Size = UDim2.new(0, 889, 0, 299)
+AutofarmTab.Visible = false
 
 AutofarmGrass.Name = "AutofarmGrass"
 AutofarmGrass.Parent = AutofarmTab
@@ -417,8 +415,8 @@ Close.Name = "Close"
 Close.Parent = Frame
 Close.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
 Close.BorderColor3 = Color3.fromRGB(45, 45, 45)
-Close.Position = UDim2.new(0.913333237, 0, 0.0125944968, 0)
-Close.Size = UDim2.new(0, 77, 0, 50)
+Close.Position = UDim2.new(0.913333237, 0, 0, 0)
+Close.Size = UDim2.new(0, 77, 0, 55)
 Close.Font = Enum.Font.Highway
 Close.Text = "X"
 Close.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -432,10 +430,8 @@ Updates.Name = "Updates"
 Updates.Parent = ScreenGui
 Updates.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
 Updates.BorderColor3 = Color3.fromRGB(45, 45, 45)
-Updates.Position = UDim2.new(0.230152369, 0, 0.139837399, 0)
-Updates.Size = UDim2.new(0, 672, 0, 383)
-Updates.Active = true
-Updates.Draggable = true
+Updates.Position = UDim2.new(0.230152354, 0, 0.139837399, 0)
+Updates.Size = UDim2.new(0, 763, 0, 208)
 
 UICorner_27.Parent = Updates
 
@@ -443,8 +439,8 @@ Close_2.Name = "Close"
 Close_2.Parent = Updates
 Close_2.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
 Close_2.BorderColor3 = Color3.fromRGB(45, 45, 45)
-Close_2.Position = UDim2.new(0.921130955, 0, 0, 0)
-Close_2.Size = UDim2.new(0, 53, 0, 50)
+Close_2.Position = UDim2.new(0.921130896, 0, 0, 0)
+Close_2.Size = UDim2.new(0, 60, 0, 50)
 Close_2.Font = Enum.Font.Highway
 Close_2.Text = "X"
 Close_2.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -458,7 +454,7 @@ Title.Name = "Title"
 Title.Parent = Updates
 Title.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
 Title.BorderColor3 = Color3.fromRGB(45, 45, 45)
-Title.Size = UDim2.new(0, 619, 0, 50)
+Title.Size = UDim2.new(0, 702, 0, 50)
 Title.Font = Enum.Font.Highway
 Title.Text = "New Updates For the script!"
 Title.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -472,31 +468,16 @@ Update1.Name = "Update1"
 Update1.Parent = Updates
 Update1.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
 Update1.BorderColor3 = Color3.fromRGB(45, 45, 45)
-Update1.Position = UDim2.new(0.110119045, 0, 0.304623991, 0)
-Update1.Size = UDim2.new(0, 523, 0, 50)
+Update1.Position = UDim2.new(0.0166557431, 0, 0.410393208, 0)
+Update1.Size = UDim2.new(0, 737, 0, 69)
 Update1.Font = Enum.Font.Highway
-Update1.Text = "Updated Autofarm (fixed not working)"
+Update1.Text = "Updated Everything because of new game update"
 Update1.TextColor3 = Color3.fromRGB(0, 0, 0)
 Update1.TextScaled = true
 Update1.TextSize = 14.000
 Update1.TextWrapped = true
 
 UICorner_30.Parent = Update1
-
-Update2.Name = "Update2"
-Update2.Parent = Updates
-Update2.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
-Update2.BorderColor3 = Color3.fromRGB(45, 45, 45)
-Update2.Position = UDim2.new(0.110119045, 0, 0.638827682, 0)
-Update2.Size = UDim2.new(0, 523, 0, 50)
-Update2.Font = Enum.Font.Highway
-Update2.Text = "Added More Autofarm Options"
-Update2.TextColor3 = Color3.fromRGB(0, 0, 0)
-Update2.TextScaled = true
-Update2.TextSize = 14.000
-Update2.TextWrapped = true
-
-UICorner_31.Parent = Update2
 
 Open.Name = "Open"
 Open.Parent = ScreenGui
@@ -512,11 +493,11 @@ Open.TextScaled = true
 Open.TextSize = 14.000
 Open.TextWrapped = true
 
-UICorner_32.Parent = Open
+UICorner_31.Parent = Open
 
 -- Scripts:
 
-local function WAVE_fake_script() -- Home.LocalScript 
+local function ZDDZDOY_fake_script() -- Home.LocalScript 
 	local script = Instance.new('LocalScript', Home)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -526,8 +507,8 @@ local function WAVE_fake_script() -- Home.LocalScript
 		script.Parent.Parent.MiscTab.Visible = false
 	end)
 end
-coroutine.wrap(WAVE_fake_script)()
-local function AWTL_fake_script() -- Teleports.LocalScript 
+coroutine.wrap(ZDDZDOY_fake_script)()
+local function EYKNDTY_fake_script() -- Teleports.LocalScript 
 	local script = Instance.new('LocalScript', Teleports)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -537,8 +518,8 @@ local function AWTL_fake_script() -- Teleports.LocalScript
 		script.Parent.Parent.MiscTab.Visible = false
 	end)
 end
-coroutine.wrap(AWTL_fake_script)()
-local function JIJICCK_fake_script() -- Autofarm.LocalScript 
+coroutine.wrap(EYKNDTY_fake_script)()
+local function HIITXW_fake_script() -- Autofarm.LocalScript 
 	local script = Instance.new('LocalScript', Autofarm)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -548,93 +529,93 @@ local function JIJICCK_fake_script() -- Autofarm.LocalScript
 		script.Parent.Parent.MiscTab.Visible = false
 	end)
 end
-coroutine.wrap(JIJICCK_fake_script)()
-local function UUQF_fake_script() -- TpToSell.LocalScript 
+coroutine.wrap(HIITXW_fake_script)()
+local function KZKVFEC_fake_script() -- TpToSell.LocalScript 
 	local script = Instance.new('LocalScript', TpToSell)
 
 	local button = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
 		local player = game.Players.LocalPlayer
-		player.Character.HumanoidRootPart.CFrame = CFrame.new(28.2004, 1.5, -68.0502)
+		player.Character.HumanoidRootPart.CFrame = CFrame.new(44.4517, 1.5, 94.0821)
 	end)
 end
-coroutine.wrap(UUQF_fake_script)()
-local function FVIUS_fake_script() -- TpToWheat.LocalScript 
+coroutine.wrap(KZKVFEC_fake_script)()
+local function PPMWZK_fake_script() -- TpToWheat.LocalScript 
 	local script = Instance.new('LocalScript', TpToWheat)
 
 	local button = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
 		local player = game.Players.LocalPlayer
-		player.Character.HumanoidRootPart.CFrame = CFrame.new(303.823, 3, -102.39)
+		player.Character.HumanoidRootPart.CFrame = CFrame.new(134.601, 0.0947799, 70.578)
 	end)
 end
-coroutine.wrap(FVIUS_fake_script)()
-local function ADAFTZ_fake_script() -- TpToGrass.LocalScript 
+coroutine.wrap(PPMWZK_fake_script)()
+local function GQCJNX_fake_script() -- TpToGrass.LocalScript 
 	local script = Instance.new('LocalScript', TpToGrass)
 
 	local button = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
 		local player = game.Players.LocalPlayer
-		player.Character.HumanoidRootPart.CFrame = CFrame.new(-8.54998, 3, 21.9702)
+		player.Character.HumanoidRootPart.CFrame = CFrame.new(178.198, 0.546442, -76.6911)
 	end)
 end
-coroutine.wrap(ADAFTZ_fake_script)()
-local function XDYX_fake_script() -- TpToCorn.LocalScript 
+coroutine.wrap(GQCJNX_fake_script)()
+local function XKYZNT_fake_script() -- TpToCorn.LocalScript 
 	local script = Instance.new('LocalScript', TpToCorn)
 
 	local button = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
 		local player = game.Players.LocalPlayer
-		player.Character.HumanoidRootPart.CFrame = CFrame.new(106.852, 3, -87.5669)
+		player.Character.HumanoidRootPart.CFrame = CFrame.new(205.332, 0.546568, -126.218)
 	end)
 end
-coroutine.wrap(XDYX_fake_script)()
-local function MPHHMNJ_fake_script() -- TpToEgg.LocalScript 
+coroutine.wrap(XKYZNT_fake_script)()
+local function WVXJZW_fake_script() -- TpToEgg.LocalScript 
 	local script = Instance.new('LocalScript', TpToEgg)
 
 	local button = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
 		local player = game.Players.LocalPlayer
-		player.Character.HumanoidRootPart.CFrame = CFrame.new(154.888, 4, -45.2193)
+		player.Character.HumanoidRootPart.CFrame = CFrame.new(85.1164, 2.84966, -86.8678)
 	end)
 end
-coroutine.wrap(MPHHMNJ_fake_script)()
-local function USIN_fake_script() -- TpToTool1.LocalScript 
+coroutine.wrap(WVXJZW_fake_script)()
+local function PPKZPN_fake_script() -- TpToTool1.LocalScript 
 	local script = Instance.new('LocalScript', TpToTool1)
 
 	local button = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
 		local player = game.Players.LocalPlayer
-		player.Character.HumanoidRootPart.CFrame = CFrame.new(3.2361, 3, -20.1888)
+		player.Character.HumanoidRootPart.CFrame = CFrame.new(48.1751, 2.51197, -165.188)
 	end)
 end
-coroutine.wrap(USIN_fake_script)()
-local function IZHUUZ_fake_script() -- TpToTool2.LocalScript 
+coroutine.wrap(PPKZPN_fake_script)()
+local function TGQIZHE_fake_script() -- TpToTool2.LocalScript 
 	local script = Instance.new('LocalScript', TpToTool2)
 
 	local button = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
 		local player = game.Players.LocalPlayer
-		player.Character.HumanoidRootPart.CFrame = CFrame.new(349.231, 4, -5.41529)
+		player.Character.HumanoidRootPart.CFrame = CFrame.new(42.6636, 1.01086, 23.1644)
 	end)
 end
-coroutine.wrap(IZHUUZ_fake_script)()
-local function AVJR_fake_script() -- AntiKick.LocalScript 
+coroutine.wrap(TGQIZHE_fake_script)()
+local function PENBQSA_fake_script() -- AntiKick.LocalScript 
 	local script = Instance.new('LocalScript', AntiKick)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game.ServerScriptService.AntiCheat:Destroy()
 	end)
 end
-coroutine.wrap(AVJR_fake_script)()
-local function XZUYFS_fake_script() -- Misc.LocalScript 
+coroutine.wrap(PENBQSA_fake_script)()
+local function GJYSTKH_fake_script() -- Misc.LocalScript 
 	local script = Instance.new('LocalScript', Misc)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -644,8 +625,8 @@ local function XZUYFS_fake_script() -- Misc.LocalScript
 		script.Parent.Parent.MiscTab.Visible = true
 	end)
 end
-coroutine.wrap(XZUYFS_fake_script)()
-local function JZVWNHI_fake_script() -- AutofarmGrass.LocalScript 
+coroutine.wrap(GJYSTKH_fake_script)()
+local function HXEO_fake_script() -- AutofarmGrass.LocalScript 
 	local script = Instance.new('LocalScript', AutofarmGrass)
 
 	script.Parent.MouseButton1Down:connect(function()
@@ -656,15 +637,15 @@ local function JZVWNHI_fake_script() -- AutofarmGrass.LocalScript
 		while true do
 			wait(7)
 			local player = game.Players.LocalPlayer
-			player.Character.HumanoidRootPart.CFrame = CFrame.new(-8.54998, 3, 21.9702)
+			player.Character.HumanoidRootPart.CFrame = CFrame.new(178.198, 0.546442, -76.6911)
 			wait(10)
 			local player = game.Players.LocalPlayer
-			player.Character.HumanoidRootPart.CFrame = CFrame.new(28.2004, 7, -68.0502)
+			player.Character.HumanoidRootPart.CFrame = CFrame.new(44.4517, 1.5, 94.0821)
 		end
 	end)
 end
-coroutine.wrap(JZVWNHI_fake_script)()
-local function TBGP_fake_script() -- AutofarmCorn.LocalScript 
+coroutine.wrap(HXEO_fake_script)()
+local function QHMIRCT_fake_script() -- AutofarmCorn.LocalScript 
 	local script = Instance.new('LocalScript', AutofarmCorn)
 
 	script.Parent.MouseButton1Down:connect(function()
@@ -675,15 +656,15 @@ local function TBGP_fake_script() -- AutofarmCorn.LocalScript
 		while true do
 			wait(7)
 			local player = game.Players.LocalPlayer
-			player.Character.HumanoidRootPart.CFrame = CFrame.new(106.852, 3, -87.5669)
+			player.Character.HumanoidRootPart.CFrame = CFrame.new(205.332, 0.546568, -126.218)
 			wait(10)
 			local player = game.Players.LocalPlayer
-			player.Character.HumanoidRootPart.CFrame = CFrame.new(28.2004, 7, -68.0502)
+			player.Character.HumanoidRootPart.CFrame = CFrame.new(44.4517, 1.5, 94.0821)
 		end
 	end)
 end
-coroutine.wrap(TBGP_fake_script)()
-local function LPWCD_fake_script() -- AutofarmWheat.LocalScript 
+coroutine.wrap(QHMIRCT_fake_script)()
+local function SAUIZB_fake_script() -- AutofarmWheat.LocalScript 
 	local script = Instance.new('LocalScript', AutofarmWheat)
 
 	script.Parent.MouseButton1Down:connect(function()
@@ -697,12 +678,12 @@ local function LPWCD_fake_script() -- AutofarmWheat.LocalScript
 			player.Character.HumanoidRootPart.CFrame = CFrame.new(303.823, 3, -102.39)
 			wait(10)
 			local player = game.Players.LocalPlayer
-			player.Character.HumanoidRootPart.CFrame = CFrame.new(28.2004, 7, -68.0502)
+			player.Character.HumanoidRootPart.CFrame = CFrame.new(134.601, 0.0947799, 70.578)
 		end
 	end)
 end
-coroutine.wrap(LPWCD_fake_script)()
-local function UMGRY_fake_script() -- Close.LocalScript 
+coroutine.wrap(SAUIZB_fake_script)()
+local function EEWZVG_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -710,8 +691,8 @@ local function UMGRY_fake_script() -- Close.LocalScript
 		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(UMGRY_fake_script)()
-local function CKJXWGQ_fake_script() -- Close_2.LocalScript 
+coroutine.wrap(EEWZVG_fake_script)()
+local function MMVXGD_fake_script() -- Close_2.LocalScript 
 	local script = Instance.new('LocalScript', Close_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -719,12 +700,12 @@ local function CKJXWGQ_fake_script() -- Close_2.LocalScript
 		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(CKJXWGQ_fake_script)()
-local function OJPWPK_fake_script() -- Open.LocalScript 
+coroutine.wrap(MMVXGD_fake_script)()
+local function RYPPIYS_fake_script() -- Open.LocalScript 
 	local script = Instance.new('LocalScript', Open)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Frame.Visible = true
 	end)
 end
-coroutine.wrap(OJPWPK_fake_script)()
+coroutine.wrap(RYPPIYS_fake_script)()
