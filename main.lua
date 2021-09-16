@@ -347,7 +347,6 @@ ScrollingFrame.Active = true
 ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ScrollingFrame.BackgroundTransparency = 1.000
 ScrollingFrame.Size = UDim2.new(0, 555, 0, 318)
-ScrollingFrame.CanvasPosition = Vector2.new(0, 318)
 
 UICorner_22.Parent = ScrollingFrame
 
@@ -544,51 +543,51 @@ UICorner_35.Parent = Open
 
 -- Scripts:
 
-local function XBZG_fake_script() -- Home.LocalScript 
+local function UXLX_fake_script() -- Home.LocalScript 
 	local script = Instance.new('LocalScript', Home)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Parent.HomeTab.Visible = true
-		script.Parent.Parent.TeleportsTab.Visible = false
-		script.Parent.Parent.AutofarmTab.Visible = false
-		script.Parent.Parent.MiscTab.Visible = false
+		script.Parent.Parent.Parent.HomeTab.Visible = true
+		script.Parent.Parent.Parent.TeleportsTab.Visible = false
+		script.Parent.Parent.Parent.AutofarmTab.Visible = false
+		script.Parent.Parent.Parent.MiscTab.Visible = false
 	end)
 end
-coroutine.wrap(XBZG_fake_script)()
-local function GGZTK_fake_script() -- Autofarm.LocalScript 
+coroutine.wrap(UXLX_fake_script)()
+local function VLKOZR_fake_script() -- Autofarm.LocalScript 
 	local script = Instance.new('LocalScript', Autofarm)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Parent.HomeTab.Visible = false
-		script.Parent.Parent.TeleportsTab.Visible = false
-		script.Parent.Parent.AutofarmTab.Visible = true
-		script.Parent.Parent.MiscTab.Visible = false
+		script.Parent.Parent.Parent.HomeTab.Visible = false
+		script.Parent.Parent.Parent.TeleportsTab.Visible = false
+		script.Parent.Parent.Parent.AutofarmTab.Visible = true
+		script.Parent.Parent.Parent.MiscTab.Visible = false
 	end)
 end
-coroutine.wrap(GGZTK_fake_script)()
-local function OAKUZ_fake_script() -- Misc.LocalScript 
+coroutine.wrap(VLKOZR_fake_script)()
+local function ZGFEY_fake_script() -- Misc.LocalScript 
 	local script = Instance.new('LocalScript', Misc)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Parent.HomeTab.Visible = false
-		script.Parent.Parent.TeleportsTab.Visible = false
-		script.Parent.Parent.AutofarmTab.Visible = false
-		script.Parent.Parent.MiscTab.Visible = true
+		script.Parent.Parent.Parent.HomeTab.Visible = false
+		script.Parent.Parent.Parent.TeleportsTab.Visible = false
+		script.Parent.Parent.Parent.AutofarmTab.Visible = false
+		script.Parent.Parent.Parent.MiscTab.Visible = true
 	end)
 end
-coroutine.wrap(OAKUZ_fake_script)()
-local function GRYNN_fake_script() -- Teleports.LocalScript 
+coroutine.wrap(ZGFEY_fake_script)()
+local function FJPTW_fake_script() -- Teleports.LocalScript 
 	local script = Instance.new('LocalScript', Teleports)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Parent.HomeTab.Visible = false
-		script.Parent.Parent.TeleportsTab.Visible = true
-		script.Parent.Parent.AutofarmTab.Visible = false
-		script.Parent.Parent.MiscTab.Visible = false
+		script.Parent.Parent.Parent.HomeTab.Visible = false
+		script.Parent.Parent.Parent.TeleportsTab.Visible = true
+		script.Parent.Parent.Parent.AutofarmTab.Visible = false
+		script.Parent.Parent.Parent.MiscTab.Visible = false
 	end)
 end
-coroutine.wrap(GRYNN_fake_script)()
-local function ZWHATWI_fake_script() -- Close.LocalScript 
+coroutine.wrap(FJPTW_fake_script)()
+local function LTXX_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -596,19 +595,19 @@ local function ZWHATWI_fake_script() -- Close.LocalScript
 		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(ZWHATWI_fake_script)()
+coroutine.wrap(LTXX_fake_script)()
 -- AutofarmGrass.LocalScript is disabled.
 -- AutofarmCorn.LocalScript is disabled.
 -- AutofarmWheat.LocalScript is disabled.
-local function XBQLFJ_fake_script() -- AntiKick.LocalScript 
+local function CSMGI_fake_script() -- AntiKick.LocalScript 
 	local script = Instance.new('LocalScript', AntiKick)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game.ServerScriptService.AntiCheat:Destroy()
 	end)
 end
-coroutine.wrap(XBQLFJ_fake_script)()
-local function YIAYF_fake_script() -- TpToEgg.LocalScript 
+coroutine.wrap(CSMGI_fake_script)()
+local function FMVSQ_fake_script() -- TpToEgg.LocalScript 
 	local script = Instance.new('LocalScript', TpToEgg)
 
 	local button = script.Parent
@@ -618,8 +617,8 @@ local function YIAYF_fake_script() -- TpToEgg.LocalScript
 		player.Character.HumanoidRootPart.CFrame = CFrame.new(85.1164, 7, -86.8678)
 	end)
 end
-coroutine.wrap(YIAYF_fake_script)()
-local function VRAG_fake_script() -- TpToGrass.LocalScript 
+coroutine.wrap(FMVSQ_fake_script)()
+local function BQHPLZY_fake_script() -- TpToGrass.LocalScript 
 	local script = Instance.new('LocalScript', TpToGrass)
 
 	local button = script.Parent
@@ -629,8 +628,8 @@ local function VRAG_fake_script() -- TpToGrass.LocalScript
 		player.Character.HumanoidRootPart.CFrame = CFrame.new(178.198, 7, -76.6911)
 	end)
 end
-coroutine.wrap(VRAG_fake_script)()
-local function BYTGPDV_fake_script() -- TpToSell.LocalScript 
+coroutine.wrap(BQHPLZY_fake_script)()
+local function TCCH_fake_script() -- TpToSell.LocalScript 
 	local script = Instance.new('LocalScript', TpToSell)
 
 	local button = script.Parent
@@ -640,8 +639,8 @@ local function BYTGPDV_fake_script() -- TpToSell.LocalScript
 		player.Character.HumanoidRootPart.CFrame = CFrame.new(44.4517, 7, 94.0821)
 	end)
 end
-coroutine.wrap(BYTGPDV_fake_script)()
-local function LTTJKGI_fake_script() -- TpToTool1.LocalScript 
+coroutine.wrap(TCCH_fake_script)()
+local function EIBYQI_fake_script() -- TpToTool1.LocalScript 
 	local script = Instance.new('LocalScript', TpToTool1)
 
 	local button = script.Parent
@@ -651,8 +650,8 @@ local function LTTJKGI_fake_script() -- TpToTool1.LocalScript
 		player.Character.HumanoidRootPart.CFrame = CFrame.new(48.1751, 7, -165.188)
 	end)
 end
-coroutine.wrap(LTTJKGI_fake_script)()
-local function TVFPW_fake_script() -- TpToTool2.LocalScript 
+coroutine.wrap(EIBYQI_fake_script)()
+local function NVZTXI_fake_script() -- TpToTool2.LocalScript 
 	local script = Instance.new('LocalScript', TpToTool2)
 
 	local button = script.Parent
@@ -662,8 +661,8 @@ local function TVFPW_fake_script() -- TpToTool2.LocalScript
 		player.Character.HumanoidRootPart.CFrame = CFrame.new(42.6636, 7, 23.1644)
 	end)
 end
-coroutine.wrap(TVFPW_fake_script)()
-local function QUIYY_fake_script() -- TpToWheat.LocalScript 
+coroutine.wrap(NVZTXI_fake_script)()
+local function AFPHOSV_fake_script() -- TpToWheat.LocalScript 
 	local script = Instance.new('LocalScript', TpToWheat)
 
 	local button = script.Parent
@@ -673,8 +672,8 @@ local function QUIYY_fake_script() -- TpToWheat.LocalScript
 		player.Character.HumanoidRootPart.CFrame = CFrame.new(134.601, 7, 70.578)
 	end)
 end
-coroutine.wrap(QUIYY_fake_script)()
-local function HBBC_fake_script() -- TpToCorn.LocalScript 
+coroutine.wrap(AFPHOSV_fake_script)()
+local function CZLICIP_fake_script() -- TpToCorn.LocalScript 
 	local script = Instance.new('LocalScript', TpToCorn)
 
 	local button = script.Parent
@@ -684,8 +683,8 @@ local function HBBC_fake_script() -- TpToCorn.LocalScript
 		player.Character.HumanoidRootPart.CFrame = CFrame.new(205.332, 7, -126.218)
 	end)
 end
-coroutine.wrap(HBBC_fake_script)()
-local function LMYXYF_fake_script() -- Close_2.LocalScript 
+coroutine.wrap(CZLICIP_fake_script)()
+local function XKMCGC_fake_script() -- Close_2.LocalScript 
 	local script = Instance.new('LocalScript', Close_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -693,8 +692,8 @@ local function LMYXYF_fake_script() -- Close_2.LocalScript
 		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(LMYXYF_fake_script)()
-local function NHRUGA_fake_script() -- Open.LocalScript 
+coroutine.wrap(XKMCGC_fake_script)()
+local function CUGDE_fake_script() -- Open.LocalScript 
 	local script = Instance.new('LocalScript', Open)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -702,4 +701,4 @@ local function NHRUGA_fake_script() -- Open.LocalScript
 		script.Parent.Visible = false
 	end)
 end
-coroutine.wrap(NHRUGA_fake_script)()
+coroutine.wrap(CUGDE_fake_script)()
